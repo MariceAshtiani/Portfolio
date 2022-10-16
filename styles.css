@@ -332,6 +332,15 @@ p {
 }
 
 /*Home*/
+
+.home-content h2{
+    margin-bottom:0;
+}
+
+.home-content p{
+    margin-bottom: 0;
+}
+
 .card-image img{
     max-height: 150px;
 }
@@ -339,6 +348,11 @@ p {
 .section-cards {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+}
+
+.card-text {
+    margin: 0;
 }
 
 /*About*/
@@ -348,6 +362,7 @@ p {
     flex-direction: column;
     justify-content: center;
     justify-items: center;
+    margin-bottom: 2%;
 
 }
 
@@ -360,7 +375,11 @@ p {
 }
 
 .about-text {
-    margin-top: 2%;
+    margin-top: 0;
+}
+
+.language-container h3{
+    margin: 5px 0px;
 }
 
 /*Contact*/
