@@ -18,7 +18,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     position: fixed;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 li {
@@ -107,7 +107,7 @@ p {
 }
 
 #home {
-    background: linear-gradient(-45deg, white 30%, darkblue);
+    background: linear-gradient(-45deg, white 30%, rgb(1, 1, 83));
 }
 
 #about {
